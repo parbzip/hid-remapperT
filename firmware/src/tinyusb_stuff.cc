@@ -35,7 +35,7 @@
 // These IDs are bogus. If you want to distribute any hardware using this,
 // you will have to get real ones.
 #define USB_VID 0x054C
-#define USB_PID 0x0CE6
+#define USB_PID 0x09CC
 
 tusb_desc_device_t desc_device = {
     .bLength = sizeof(tusb_desc_device_t),
@@ -107,9 +107,9 @@ char const* string_desc_arr[] = {
 #ifdef PICO_RP2350
     "RP2350",  // 1: Manufacturer
 #else
-    "Turbo Link",  // 1: Manufacturer
+    "Turbo LinK",  // 1: Manufacturer
 #endif
-    "HID Remapper XXXX",  // 2: Product
+    "HID RemappeR XXXX",  // 2: Product
 };
 
 // Invoked when received GET DEVICE DESCRIPTOR
